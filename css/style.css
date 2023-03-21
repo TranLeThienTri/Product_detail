@@ -193,8 +193,11 @@ body {
 }
 
 .buy {
-    margin-left: 20px;
+    margin-left: 100px;
     width: 30%;
+}
+
+.price {
     font-size: 30px;
     font-weight: 700;
     color: #00BDD6;
@@ -223,4 +226,9 @@ body {
 
 .info span {
     margin-left: 5px;
+}
+
+.line_option {
+    width: 100%;
+    display: flex;
 }
