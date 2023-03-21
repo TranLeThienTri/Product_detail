@@ -170,3 +170,57 @@ body {
 .img_main_product img:last-child {
     grid-area: h5;
 }
+
+.des_product {
+    margin: 40px 0;
+}
+
+.title_p {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.container_des {
+    display: flex;
+    width: 70%;
+}
+
+.sub_des {
+    line-height: 1.6;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.buy {
+    margin-left: 20px;
+    width: 30%;
+    font-size: 30px;
+    font-weight: 700;
+    color: #00BDD6;
+}
+
+.infomation_pro {
+    display: flex;
+    margin-top: 20px;
+}
+
+.info_left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.info_right {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    margin: 10px 0;
+}
+
+.info span {
+    margin-left: 5px;
+}
