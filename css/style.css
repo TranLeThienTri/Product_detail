@@ -148,6 +148,7 @@ body {
 .img_main_product {
     display: grid;
     grid-template-areas: "h1 h1 h2 h3" "h1 h1 h4 h5";
+    grid-gap: 10px;
 }
 
 .img_main_product img:first-child {
