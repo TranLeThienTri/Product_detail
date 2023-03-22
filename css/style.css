@@ -77,9 +77,9 @@ body {
     font-weight: 600;
 }
 
-.navbar li:hover>a {
-    color: #00BDD6;
-    border-bottom: 5px solid #00BDD6;
+.navbar li:hover > a {
+    color: #00bdd6;
+    border-bottom: 5px solid #00bdd6;
 }
 
 .input {
@@ -171,36 +171,10 @@ body {
     grid-area: h5;
 }
 
-.des_product {
-    margin: 40px 0;
-}
-
 .title_p {
     font-size: 24px;
     font-weight: 700;
     padding: 20px 0;
-}
-
-.container_des {
-    display: flex;
-    width: 70%;
-}
-
-.sub_des {
-    line-height: 1.6;
-    font-size: 14px;
-    letter-spacing: 1px;
-}
-
-.buy {
-    margin-left: 100px;
-    width: 30%;
-}
-
-.price {
-    font-size: 30px;
-    font-weight: 700;
-    color: #00BDD6;
 }
 
 .infomation_pro {
@@ -228,7 +202,95 @@ body {
     margin-left: 5px;
 }
 
+.buy {
+    width: 40%;
+    border: 2px solid #f5f5f5;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+.container_des {
+    margin: 40px 0;
+    display: flex;
+    width: 100%;
+    gap: 2%;
+}
+
+.sub_des {
+    line-height: 1.6;
+    font-size: 14px;
+    letter-spacing: 1px;
+    width: 98%;
+}
+
+.price {
+    font-size: 36px;
+    font-weight: 900;
+    color: #00bdd6;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+}
+
+.option {
+}
+
 .line_option {
     width: 100%;
     display: flex;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 14px;
+    align-items: center;
+}
+
+.total {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.total span:first-child {
+    opacity: 0.7;
+    text-transform: capitalize;
+}
+.total span:last-child {
+    font-weight: 900;
+}
+
+.btn_buy_now {
+    background-color: #00bdd6;
+    text-align: center;
+    padding: 14px 0;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.btn_buy_now:hover {
+    background-color: #fff;
+    border: 2px solid #00bdd6;
+    color: #00bdd6;
+}
+
+.add_to_cart {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 8px 0;
+    border-radius: 4px;
+    color: #00bdd6;
+    border: 2px solid #00bdd6;
+    gap: 10px;
+}
+
+.add_to_cart:hover {
+    background-color: #00bdd6;
+    color: #fff;
 }
